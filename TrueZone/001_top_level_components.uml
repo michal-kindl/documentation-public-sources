@@ -1,6 +1,6 @@
 @startuml
 
-title Top level components
+header **Top level components**
 
 package "Application" as APP {
   [**Application Backend**\n- Node.js\n- Express] as BACKEND
@@ -8,7 +8,7 @@ package "Application" as APP {
 }
 
 package "Development" as DEV {
-  [**Documentation tools**\n- Compodoc (Angular)\n- Swagger (API)\n- DbSchema (SQL)\n- GitHub Wiki]
+  [**Documentation tools**\n- Compodoc (Angular)\n- Swagger (API)\n- DbSchema (SQL)\n- GitHub Wiki\n- XMind]
   [**Source code**\n- GIT]
   [**Project management**\n- GitHub project]
 }

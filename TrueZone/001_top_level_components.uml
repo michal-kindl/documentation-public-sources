@@ -1,0 +1,22 @@
+@startuml
+
+title Top level components
+
+package "Development" {
+  [**Documentation tools**\n- Compodoc (Angular)..\n- Swagger (API)\n- DbSchema (SQL)]
+  [**Source code**\n- GIT]
+  [**Project management**\n- GitHub project]
+}
+
+package "Application" {
+  [**Application Backend**\n- Node.js\n- Express] as BACKEND
+  [**Application Frontend**\n- Angular\n- Bootstrap\n- PrimeNG] as FRONTEND
+}
+
+package "Data" {
+  database "**SQL Database**\n- MySQL" as DB
+  database "**File Database**\n- MongoDB\n- GridFS" as FDB
+  [**Fulltext Engine**\n- ElasticSearch] as FTEXT
+}
+
+@enduml

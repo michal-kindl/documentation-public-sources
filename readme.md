@@ -1,0 +1,1 @@
+# Documentation sources fro GitHub projects

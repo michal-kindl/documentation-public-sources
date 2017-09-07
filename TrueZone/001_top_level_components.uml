@@ -4,12 +4,13 @@ header **Top level components**
 
 package "Application" as APP {
   [**Application Backend**\n- Node.js\n- Express] as BACKEND
-  [**Application Frontend**\n- Angular\n- Bootstrap\n- PrimeNG] as FRONTEND
+  [**Application Frontend**\n- Angular\n- Bootstrap\n- PrimeNG\n - SASS (for CSS)] as FRONTEND
 }
 
 package "Development" as DEV {
   [**Documentation tools**\n- Compodoc (Angular)\n- Swagger (API)\n- DbSchema (SQL)\n- GitHub Wiki\n- XMind]
   [**Source code**\n- GIT]
+  [**Development tools**\n- Visual Studio Code\n - PhpMyAdmin (XAMPP)]
   [**Project management**\n- GitHub project]
 }
 
